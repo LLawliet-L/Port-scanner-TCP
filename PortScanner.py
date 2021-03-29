@@ -1,26 +1,8 @@
-﻿#coding:utf-8
-
 import socket
 from sys import exit
 import colorama
 from colorama import Back, Fore, Style, deinit, init
 init()
-
-print(Fore.RED)
-print(Back.WHITE)
-
-
-print("██████╗  ██████╗ ██████╗ ████████╗    ███████╗ ██████╗ █████╗ ███╗   ██╗███╗   ██╗███████╗██████╗ ")
-print("██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝    ██╔════╝██╔════╝██╔══██╗████╗  ██║████╗  ██║██╔════╝██╔══██╗")
-print("██████╔╝██║   ██║██████╔╝   ██║       ███████╗██║     ███████║██╔██╗ ██║██╔██╗ ██║█████╗  ██████╔╝")
-print("██╔═══╝ ██║   ██║██╔══██╗   ██║       ╚════██║██║     ██╔══██║██║╚██╗██║██║╚██╗██║██╔══╝  ██╔══██╗")
-print("██║     ╚██████╔╝██║  ██║   ██║       ███████║╚██████╗██║  ██║██║ ╚████║██║ ╚████║███████╗██║  ██║")
-print("╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝       ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝")
-print(Style.RESET_ALL)
-print(Fore.YELLOW + "                                                                  Made by : Lawli3t.")                                                                                              
-print(Style.RESET_ALL)
-
-
 
 print(Fore.MAGENTA)
 ip = input("\nTarget IP : ")
